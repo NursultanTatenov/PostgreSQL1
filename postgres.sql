@@ -218,6 +218,21 @@ VALUES ('Aigul Maratbekovna','Manas','Jal',20000,'Kyrgyz languages'),
        ('Zulaika Cholponovna','KGMA','Ulan-2',18000,'Biology');
 
 
+CREATE TABLE jobs(
+       company_name VARCHAR NOT NULL,
+       work_time VARCHAR,
+       salary INT,
+       address VARCHAR,
+       job_title VARCHAR
+);
+
+INSERT INTO jobs(company_name, work_time, salary, address, job_title)
+VALUES ('Airport Manas','7:00-16:00',45000,'airport Manas','Security'),
+       ('Kyrgyz Government','8:00-17:00',13000,'Chui 123','Expert'),
+       ('Manas University','9:00-18:00',23000,'Jal','Teacher'),
+       ('Hospital National','19:00-7:00',55000,'Manas 23','Doctor');
+
+
 
 
 
